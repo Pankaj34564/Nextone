@@ -8,7 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 
-public class SauceDemoScreenShot {
+public class SauceScreenShot {
 
 	public static void screenshot(WebDriver driver, String name) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
