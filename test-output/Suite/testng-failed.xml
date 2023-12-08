@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="chromeTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="Com.Test_Class_Sauce_Demo.TC_03_VerifyAddCartFunctionality_SauceDemo">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+          <include name="allproduct"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Com.Test_Class_Sauce_Demo.TC_03_VerifyAddCartFunctionality_SauceDemo -->
+      <class name="Com.Test_Class_Sauce_Demo.TC_01_VerifyLoginFunctionality_Using_Assertion">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="saucedemologin"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Com.Test_Class_Sauce_Demo.TC_01_VerifyLoginFunctionality_Using_Assertion -->
+      <class name="Com.Test_Class_Sauce_Demo.TC_04_VerifyProductbuy_SauceDemo">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="checkout"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Com.Test_Class_Sauce_Demo.TC_04_VerifyProductbuy_SauceDemo -->
+      <class name="Com.Test_Class_Sauce_Demo.TC_02_VerifyAddtoCartFunctionalityof_SauceDemo">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="addtocart"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Com.Test_Class_Sauce_Demo.TC_02_VerifyAddtoCartFunctionalityof_SauceDemo -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="5" parallel="classes" name="firefoxTest(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="Com.Test_Class_Sauce_Demo.TC_03_VerifyAddCartFunctionality_SauceDemo">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+          <include name="allproduct"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Com.Test_Class_Sauce_Demo.TC_03_VerifyAddCartFunctionality_SauceDemo -->
+      <class name="Com.Test_Class_Sauce_Demo.TC_01_VerifyLoginFunctionality_Using_Assertion">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="saucedemologin"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Com.Test_Class_Sauce_Demo.TC_01_VerifyLoginFunctionality_Using_Assertion -->
+      <class name="Com.Test_Class_Sauce_Demo.TC_04_VerifyProductbuy_SauceDemo">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="checkout"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Com.Test_Class_Sauce_Demo.TC_04_VerifyProductbuy_SauceDemo -->
+      <class name="Com.Test_Class_Sauce_Demo.TC_02_VerifyAddtoCartFunctionalityof_SauceDemo">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="addtocart"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Com.Test_Class_Sauce_Demo.TC_02_VerifyAddtoCartFunctionalityof_SauceDemo -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

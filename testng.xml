@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test parallel="classes" thread-count="10" name="chromeTest">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="Com.Test_Class_Sauce_Demo.TC_04_VerifyProductbuy_SauceDemo"/>
+      <class name="Com.Test_Class_Sauce_Demo.TC_02_VerifyAddtoCartFunctionalityof_SauceDemo"/>
+      <class name="Com.Test_Class_Sauce_Demo.TC_03_VerifyAddCartFunctionality_SauceDemo"/>
+      <class name="Com.Test_Class_Sauce_Demo.TC_01_VerifyLoginFunctionality_Using_Assertion"/>
+    </classes>
+  </test> <!-- Test -->
+    <test parallel="classes"  thread-count="4" name="firefoxTest">
+  <parameter name="browserName" value="firefox"></parameter>
+    <classes>
+      <class name="Com.Test_Class_Sauce_Demo.TC_04_VerifyProductbuy_SauceDemo"/>
+      <class name="Com.Test_Class_Sauce_Demo.TC_02_VerifyAddtoCartFunctionalityof_SauceDemo"/>
+      <class name="Com.Test_Class_Sauce_Demo.TC_03_VerifyAddCartFunctionality_SauceDemo"/>
+      <class name="Com.Test_Class_Sauce_Demo.TC_01_VerifyLoginFunctionality_Using_Assertion"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
